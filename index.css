@@ -1,0 +1,125 @@
+*{
+    outline: 0%;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("/images/Exambg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 33px;
+}
+.head i:first-child{
+    left: 1%;
+    position: absolute;
+}
+.head i:nth-child(2){
+    position: absolute;
+    left:48%;
+}
+.head i:nth-child(n+3){
+    position: absolute;
+    right: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+.head h5{
+    right: 2%;
+    bottom: 25px;
+    position: absolute;
+    font-size: 20px;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    position: relative;
+}
+.nav img{
+    max-height: 100px;
+    margin-left: -20px;
+}
+.nav h3{
+    left: 0%;
+    position: absolute;
+    bottom: 25px;
+    left: 45px;
+}
+.navmenu{
+    display: flex;
+    margin-top: 15px;
+}
+.navmenu li{
+    margin: 15px;
+    padding-right: 15px;
+}
+.navmenu li button{
+    padding: 10px 15px;
+    margin-top: -10px;
+    margin-left: -20px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.body{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.body h1{
+    font-size: 65px;
+    margin-top: 80px;
+}
+.body p{
+    text-align-last: justify;
+    font-size: 25px;
+    padding: 40px;
+    margin: 0px 80px;
+}
+.button1{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.button2{
+    font-size: 15px;
+    color: rgb(243, 219, 219);
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.leftbottom #first{
+    position: absolute;
+    font-size: 50px;
+    color: red;
+    text-align: right;
+    right:10px;
+}
+.leftbottom #second{
+    position: absolute;
+    background-color: blue;
+    padding: 9px;
+    border-radius: 1px;
+    right: 0%;
+}
